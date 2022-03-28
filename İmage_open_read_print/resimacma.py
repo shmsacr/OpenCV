@@ -7,7 +7,7 @@ cv2.imshow("DERS1",image)#çektiğimiz resmi gösterme
 cv2.imwrite("newimage.png",image)
 
 print(image.size) # resimin matris boyutu
-print(image.dtype)
-print(image.shape)
+print(image.dtype)#resim veri tipi
+print(image.shape)#resim şekli
 cv2.waitKey(0)
 cv2.destroyAllWindows() # resimle alakalı tum verileri kapatır
