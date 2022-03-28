@@ -10,4 +10,4 @@ print(image.size) # resimin matris boyutu
 print(image.dtype)
 print(image.shape)
 cv2.waitKey(0)
-cv2.destroyAllWindows() # resimle alaklı tum verileri kapatır
+cv2.destroyAllWindows() # resimle alakalı tum verileri kapatır
